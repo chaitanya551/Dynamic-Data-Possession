@@ -33,7 +33,7 @@ public class Mail {
                 new javax.mail.Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("testjpinfotech@gmail.com", "TESTJPINFO");
+                return new PasswordAuthentication("abc@gmail.com", "12345678");
             }
         });
 
